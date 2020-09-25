@@ -1,0 +1,153 @@
+﻿@model Web.Models.Amigo.AmigoViewModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+    <div>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+        <a asp-action="Index">Back to List</a>
+    </div>
+
+<h1>Details</h1>
+
+<div>
+    <h4>AmigoViewModel</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UrlFoto)
+        </dt>
+        <dd class="col-sm-10">
+           <img src="@Html.DisplayFor(model => model.UrlFoto)" width="75" height="75"/> 
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.SobreNome)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.SobreNome)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Telefone)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Telefone)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DataAniversario)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DataAniversario)
+        </dd>
+    </dl>
+</div>
+
+<div>
+    <h4>Lista de Amigos</h4>
+    <hr />
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Nome
+                </th>
+                <th>
+                    SobreNome
+                </th>
+                <th>
+                    Email
+                </th>
+                <th>
+                    Telefone
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Amigos)
+            {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.Nome)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.SobreNome)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Email)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Telefone)
+    </td>
+    <td>
+        @Html.ActionLink("Remover", "DetailsDelete", new { Id = Model.Id, idAmigo = item.Id })
+    </td>
+</tr>            }
+        </tbody>
+    </table>
+</div>
+
+<div>
+    <h4>Sugestão de amizade</h4>
+    <hr />
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Nome
+                </th>
+                <th>
+                    SobreNome
+                </th>
+                <th>
+                    Email
+                </th>
+                <th>
+                    Telefone
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.TodosAmigos)
+            {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.Nome)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.SobreNome)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Email)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Telefone)
+    </td>
+    <td>
+        @Html.ActionLink("Adicionar", "DetailsPost", new { Id = Model.Id, idAmigo = item.Id })
+    </td>
+</tr>            }
+        </tbody>
+    </table>
+</div>
