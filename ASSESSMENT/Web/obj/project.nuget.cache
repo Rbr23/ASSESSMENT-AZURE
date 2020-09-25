@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/qC9dX8VgaE35pK7GrmJ1H/oQI6qu7wrYpLzUbUVCD686lw97ZY17uTiAj/pg4svdQBjEUxHY9l9iXpgPMvlaQ==",
+  "dgSpecHash": "VCyc7wOCxLLLovfQXb0viMsJsCy1OAgtYs3yJMpR/BGsUmNgv8mHSBIvmnE5PLaf4wc6LkYI8dqlEUXlbJg37Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user1\\source\\repos\\ASSESSMENT\\Web\\Web.csproj",
+  "projectFilePath": "C:\\Users\\user1\\Desktop\\.NET-INFNET\\ASSESSMENT-AZURE\\ASSESSMENT\\Web\\Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user1\\.nuget\\packages\\azure.core\\1.4.1\\azure.core.1.4.1.nupkg.sha512",
     "C:\\Users\\user1\\.nuget\\packages\\azure.storage.blobs\\12.6.0\\azure.storage.blobs.12.6.0.nupkg.sha512",

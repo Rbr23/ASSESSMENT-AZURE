@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kOXPWkKDbLnzW+qMMv7tTSaKyBah0/EFs0NqM70mSv1JREag6VkhDk1m601QrXKSKcDIBESzeBOFkIoFG+Mynw==",
+  "dgSpecHash": "422OpoMosUmsMNtYMbZRgTVCXu6iPqzurT//QCo4YWgVG+bkIZzMu3tGfcKVE/VWdgTXfdafV4Fi7K+Ib/rawA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user1\\source\\repos\\ASSESSMENT\\Api.Amigos\\Api.Amigos.csproj",
+  "projectFilePath": "C:\\Users\\user1\\Desktop\\.NET-INFNET\\ASSESSMENT-AZURE\\ASSESSMENT\\Api.Amigos\\Api.Amigos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user1\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\user1\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.0.1\\automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",

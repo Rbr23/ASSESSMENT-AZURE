@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user1\\source\\repos\\ASSESSMENT\\Api.Amigos\\Api.Amigos.csproj": {}
+    "C:\\Users\\user1\\Desktop\\.NET-INFNET\\ASSESSMENT-AZURE\\ASSESSMENT\\Api.Amigos\\Api.Amigos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user1\\source\\repos\\ASSESSMENT\\Api.Amigos\\Api.Amigos.csproj": {
+    "C:\\Users\\user1\\Desktop\\.NET-INFNET\\ASSESSMENT-AZURE\\ASSESSMENT\\Api.Amigos\\Api.Amigos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user1\\source\\repos\\ASSESSMENT\\Api.Amigos\\Api.Amigos.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Desktop\\.NET-INFNET\\ASSESSMENT-AZURE\\ASSESSMENT\\Api.Amigos\\Api.Amigos.csproj",
         "projectName": "Api.Amigos",
-        "projectPath": "C:\\Users\\user1\\source\\repos\\ASSESSMENT\\Api.Amigos\\Api.Amigos.csproj",
+        "projectPath": "C:\\Users\\user1\\Desktop\\.NET-INFNET\\ASSESSMENT-AZURE\\ASSESSMENT\\Api.Amigos\\Api.Amigos.csproj",
         "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user1\\source\\repos\\ASSESSMENT\\Api.Amigos\\obj\\",
+        "outputPath": "C:\\Users\\user1\\Desktop\\.NET-INFNET\\ASSESSMENT-AZURE\\ASSESSMENT\\Api.Amigos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",

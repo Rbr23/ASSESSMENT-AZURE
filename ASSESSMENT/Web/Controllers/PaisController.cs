@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.Storage;
 using Microsoft.Azure.Storage.Blob;
 using RestSharp;
+using Web.Models.Estado;
 using Web.Models.Pais;
 
 namespace Web.Controllers
@@ -15,7 +16,7 @@ namespace Web.Controllers
     {
         private readonly string _UriAPI = "https://localhost:44318/";
 
-        // GET: PaisController
+        // GET: Controller
         public ActionResult Index()
         {
             var client = new RestClient();
@@ -26,7 +27,7 @@ namespace Web.Controllers
             return View(response.Data);
         }
 
-        // GET: PaisController/Details/5
+        // GET: Controller/Details/5
         public ActionResult Details(Guid id)
         {
             var client = new RestClient();
@@ -34,10 +35,13 @@ namespace Web.Controllers
 
             var response = client.Get<PaisViewModel>(request);
 
+            var requestEstados = new RestRequest(_UriAPI + "api/Pais/" + id + "/Estados", DataFormat.Json);
+            response.Data.Estados = client.Get<List<EstadoViewModel>>(requestEstados).Data;
+
             return View(response.Data);
         }
 
-        // GET: PaisController/Create
+        // GET: Controller/Create
         public ActionResult Create()
         {
             return View();

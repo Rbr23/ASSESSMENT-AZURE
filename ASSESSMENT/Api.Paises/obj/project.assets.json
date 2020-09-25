@@ -7695,11 +7695,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user1\\source\\repos\\ASSESSMENT\\Api.Paises\\Api.Paises.csproj",
+      "projectUniqueName": "C:\\Users\\user1\\Desktop\\.NET-INFNET\\ASSESSMENT-AZURE\\ASSESSMENT\\Api.Paises\\Api.Paises.csproj",
       "projectName": "Api.Paises",
-      "projectPath": "C:\\Users\\user1\\source\\repos\\ASSESSMENT\\Api.Paises\\Api.Paises.csproj",
+      "projectPath": "C:\\Users\\user1\\Desktop\\.NET-INFNET\\ASSESSMENT-AZURE\\ASSESSMENT\\Api.Paises\\Api.Paises.csproj",
       "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user1\\source\\repos\\ASSESSMENT\\Api.Paises\\obj\\",
+      "outputPath": "C:\\Users\\user1\\Desktop\\.NET-INFNET\\ASSESSMENT-AZURE\\ASSESSMENT\\Api.Paises\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",

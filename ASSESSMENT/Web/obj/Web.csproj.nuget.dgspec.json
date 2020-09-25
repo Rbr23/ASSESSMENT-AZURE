@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user1\\source\\repos\\ASSESSMENT\\Web\\Web.csproj": {}
+    "C:\\Users\\user1\\Desktop\\.NET-INFNET\\ASSESSMENT-AZURE\\ASSESSMENT\\Web\\Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user1\\source\\repos\\ASSESSMENT\\Web\\Web.csproj": {
+    "C:\\Users\\user1\\Desktop\\.NET-INFNET\\ASSESSMENT-AZURE\\ASSESSMENT\\Web\\Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user1\\source\\repos\\ASSESSMENT\\Web\\Web.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Desktop\\.NET-INFNET\\ASSESSMENT-AZURE\\ASSESSMENT\\Web\\Web.csproj",
         "projectName": "Web",
-        "projectPath": "C:\\Users\\user1\\source\\repos\\ASSESSMENT\\Web\\Web.csproj",
+        "projectPath": "C:\\Users\\user1\\Desktop\\.NET-INFNET\\ASSESSMENT-AZURE\\ASSESSMENT\\Web\\Web.csproj",
         "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user1\\source\\repos\\ASSESSMENT\\Web\\obj\\",
+        "outputPath": "C:\\Users\\user1\\Desktop\\.NET-INFNET\\ASSESSMENT-AZURE\\ASSESSMENT\\Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",

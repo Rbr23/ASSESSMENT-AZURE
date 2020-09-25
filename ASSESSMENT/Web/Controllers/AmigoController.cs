@@ -15,7 +15,7 @@ namespace Web.Controllers
     {
         private readonly string link = "https://localhost:44304/";
 
-        // GET: AutorController
+        // GET: Controller
         public IActionResult Index()
         {
             var client = new RestClient();
@@ -28,7 +28,7 @@ namespace Web.Controllers
             return View(response.Data);
         }
 
-        // GET: AutorController/Details/5
+        // GET: Controller/Details/5
         public ActionResult Details(Guid id)
         {
             var client = new RestClient();
@@ -74,13 +74,13 @@ namespace Web.Controllers
 
 
 
-        // GET: AutorController/Create
+        // GET: Controller/Create
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: AutorController/Create
+        // POST: Controller/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create(CreateAmigoViewModel formAutorViewModel)
@@ -107,7 +107,7 @@ namespace Web.Controllers
             }
         }
 
-        // GET: AutorController/Edit/5
+        // GET: Controller/Edit/5
         public ActionResult Edit(Guid id)
         {
             var client = new RestClient();
@@ -118,7 +118,7 @@ namespace Web.Controllers
             return View(response.Data);
         }
 
-        // POST: AutorController/Edit/5
+        // POST: Controller/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit(Guid id, EditarAmigoViewModel editaramigoViewModel, IFormFile foto)
@@ -146,7 +146,7 @@ namespace Web.Controllers
             }
         }
 
-        // GET: AutorController/Delete/5
+        // GET: Controller/Delete/5
         public ActionResult Delete(Guid id)
         {
             var client = new RestClient();
@@ -157,7 +157,7 @@ namespace Web.Controllers
             return View(response.Data);
         }
 
-        // POST: AutorController/Delete/5
+        // POST: Controller/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Delete(Guid id, AmigoViewModel autorViewModel)
